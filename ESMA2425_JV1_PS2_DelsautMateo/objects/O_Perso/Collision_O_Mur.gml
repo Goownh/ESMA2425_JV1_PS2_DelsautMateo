@@ -1,0 +1,3 @@
+if(wallJump) {
+	onWall = true;
+}
