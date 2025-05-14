@@ -3,5 +3,5 @@ yspd = 0
 moveSpd = 5;
 
 onGround = false;
-wallJump = false;
+wallJump = 0;
 onWall = false;

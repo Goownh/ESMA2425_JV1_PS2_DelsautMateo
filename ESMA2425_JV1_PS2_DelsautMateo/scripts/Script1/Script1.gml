@@ -1,1 +1,0 @@
-#macro grav 0.3

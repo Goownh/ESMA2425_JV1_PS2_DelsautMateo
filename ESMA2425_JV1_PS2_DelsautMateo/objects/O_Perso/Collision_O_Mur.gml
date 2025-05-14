@@ -1,3 +1,3 @@
-if(wallJump) {
+if(wallJump>0) {
 	onWall = true;
 }

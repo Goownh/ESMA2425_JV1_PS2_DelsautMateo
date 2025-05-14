@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mob_tp",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mob_tp",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

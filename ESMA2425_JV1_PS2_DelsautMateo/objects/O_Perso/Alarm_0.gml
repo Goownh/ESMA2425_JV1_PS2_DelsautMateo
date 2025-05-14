@@ -1,4 +1,4 @@
 /// @description Stop Wall Grab
 onWall = false;
-wallJump = false;
+wallJump--;
 show_debug_message("tombe")
