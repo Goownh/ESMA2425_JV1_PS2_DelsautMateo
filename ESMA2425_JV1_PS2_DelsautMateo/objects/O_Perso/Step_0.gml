@@ -3,11 +3,12 @@ var SDown = keyboard_check(ord("S"));
 var QDown = keyboard_check(ord("Q"));
 var DDown = keyboard_check(ord("D"));
 var spacePress = keyboard_check_pressed(vk_space);
+var clickG = mouse_check_button_pressed(mb_left);
 
 xspd = moveSpd * (DDown - QDown);
 yspd += grav;
 
-if(place_meeting(x, y+2, O_Sol)){
+if(place_meeting(x, y+1, O_Sol)){
 	onGround = true;
 	//recup walljump
 	yspd = 0;
@@ -36,7 +37,7 @@ if(!onGround && onWall){
 		alarm_set(1, 6);
 	}
 }
-if(alarm_get(1)> 0) {
+if(alarm_get(1) > 0) {
 	if(spacePress && wallJump>0) {
 		yspd  = -7;
 		xspd = moveSpd
@@ -46,8 +47,9 @@ if(alarm_get(1)> 0) {
 x += xspd
 y += yspd
 
+if(clickG && alarm_get(2) <= 0){
+	alarm_set(2,30);
+	instance_create_layer(x,y,)
+}
 
-
-
-/*show_debug_message("")          
-show_debug_message(wallJump)          
+  

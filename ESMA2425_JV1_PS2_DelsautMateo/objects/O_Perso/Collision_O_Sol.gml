@@ -1,1 +1,2 @@
-//onGround = true;
+onGround = true;
+yspd = 0;
