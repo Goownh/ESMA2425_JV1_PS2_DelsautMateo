@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"O_Parade",
+  "%Name":"O_TirParry",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Tir","path":"objects/O_Tir/O_Tir.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_EnnemiTir","path":"objects/O_EnnemiTir/O_EnnemiTir.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Mur","path":"objects/O_Mur/O_Mur.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Parade",
+  "name":"O_TirParry",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Parade",
-    "path":"sprites/S_Parade/S_Parade.yy",
+    "name":"S_Tir",
+    "path":"sprites/S_Tir/S_Tir.yy",
   },
   "spriteMaskId":null,
   "visible":true,

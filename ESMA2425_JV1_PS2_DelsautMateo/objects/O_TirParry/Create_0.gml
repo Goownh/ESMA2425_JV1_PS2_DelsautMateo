@@ -1,7 +1,7 @@
-image_angle = point_direction(x, y, O_Perso.x, O_Perso.y);
+image_angle = O_Parade.nvImage_angle;
 direction = image_angle
 
-speed = 7;
+speed = 5;
 
 //destruction apres longtemps
 alarm_set(0,300);

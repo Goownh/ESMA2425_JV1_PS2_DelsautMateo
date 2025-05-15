@@ -1,4 +1,6 @@
-distance_perso = 0;
+distance_perso = 0
+
+hp = 5;
 
 //direction vars
 ran = 0;
