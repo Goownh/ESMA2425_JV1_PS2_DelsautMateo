@@ -1,5 +1,7 @@
 /// @description deplacements aléatoires
 randomise();
+
+randir = floor(random(2));
 ran = floor(random_range(60,200));
 	
 dirPlus = x+ran;

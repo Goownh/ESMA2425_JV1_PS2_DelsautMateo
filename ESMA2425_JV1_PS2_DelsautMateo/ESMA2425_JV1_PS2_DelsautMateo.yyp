@@ -43,6 +43,7 @@
     {"id":{"name":"O_Attaque","path":"objects/O_Attaque/O_Attaque.yy",},},
     {"id":{"name":"O_CharAnimation","path":"objects/O_CharAnimation/O_CharAnimation.yy",},},
     {"id":{"name":"O_EnnemiTir","path":"objects/O_EnnemiTir/O_EnnemiTir.yy",},},
+    {"id":{"name":"O_EnnemiVole","path":"objects/O_EnnemiVole/O_EnnemiVole.yy",},},
     {"id":{"name":"O_Mur","path":"objects/O_Mur/O_Mur.yy",},},
     {"id":{"name":"O_Parade","path":"objects/O_Parade/O_Parade.yy",},},
     {"id":{"name":"O_Perso","path":"objects/O_Perso/O_Perso.yy",},},

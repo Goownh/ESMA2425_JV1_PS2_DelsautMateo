@@ -17,7 +17,7 @@ if(place_meeting(x, y+1, O_Sol)){
 	
 	//jump
 	if(spacePress){
-		yspd = -7;
+		yspd = -15;
 		onGround = false;
 	}
 }
@@ -68,5 +68,7 @@ if(clickG && alarm_get(3) <= 0){
 
 show_debug_message(yspd)
 show_debug_message(xspd)
+show_debug_message("")
+show_debug_message(image_xscale)
 show_debug_message("")
 show_debug_message("")
