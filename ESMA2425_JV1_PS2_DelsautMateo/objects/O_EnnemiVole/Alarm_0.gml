@@ -10,12 +10,6 @@ dirXMoins = x-ranX;
 dirYPlus = x+ranY;
 dirYMoins = x-ranY;
 
-if(randir == 1) {
-	move_towards_point(dirXPlus, dirYPlus, 2);
-}
-{
-	move_towards_point(dirMoins, dirYMoins, 2);
-}
 switch randir {
 	case 0:
 		move_towards_point(dirXPlus, dirYPlus, 2);
