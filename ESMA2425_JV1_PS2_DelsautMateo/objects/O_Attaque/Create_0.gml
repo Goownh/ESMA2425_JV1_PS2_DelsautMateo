@@ -1,0 +1,1 @@
+distance = O_Perso.image_xscale*sprite_width

@@ -34,5 +34,4 @@ else {
 	if(point_distance(x,y,dirPlus,y) <= 5 || point_distance(x,y,dirMoins,y) <= 5) {
 			speed = 0;
 	}
-	show_debug_message(alarm_get(1))
 }

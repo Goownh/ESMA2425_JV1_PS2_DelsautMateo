@@ -30,7 +30,7 @@ if(!onGround && onWall){
 	//wall jump
 	if(spacePress) {
 		yspd  = -7;
-		xspd = moveSpd
+		xspd = moveSpd;
 	}
 	//ghost frame
 	if(xspd > 0) {
@@ -41,20 +41,32 @@ if(!onGround && onWall){
 if(alarm_get(1) > 0) {
 	if(spacePress && wallJump>0) {
 		yspd  = -7;
-		xspd = moveSpd
+		xspd = moveSpd;
 	}
 }
 
-x += xspd
-y += yspd
+x += xspd;
+y += yspd;
 
 //parry
 if(clickD && alarm_get(2) <= 0){
 	alarm_set(2,30);
-	instance_create_layer(x-64,y,"Char", O_Parade)
+	instance_create_layer(x-64,y,"Char", O_Parade);
 }
 //attack
 if(clickG && alarm_get(3) <= 0){
 	alarm_set(3,30);
-	instance_create_layer(x-64,y,"Char", O_Attaque)
+	if(image_xscale == 1) {
+			instance_create_layer(x+64,y,"Char", O_Attaque);
+			O_Attaque.image_xscale = 1;
+		}
+		else {
+			instance_create_layer(x-64,y,"Char", O_Attaque);
+			image_xscale = -1;
+		}
 }
+
+show_debug_message(yspd)
+show_debug_message(xspd)
+show_debug_message("")
+show_debug_message("")
