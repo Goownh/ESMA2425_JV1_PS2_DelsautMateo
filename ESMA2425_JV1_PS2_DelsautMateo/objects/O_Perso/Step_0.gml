@@ -65,10 +65,3 @@ if(clickG && alarm_get(3) <= 0){
 			image_xscale = -1;
 		}
 }
-
-show_debug_message(yspd)
-show_debug_message(xspd)
-show_debug_message("")
-show_debug_message(image_xscale)
-show_debug_message("")
-show_debug_message("")

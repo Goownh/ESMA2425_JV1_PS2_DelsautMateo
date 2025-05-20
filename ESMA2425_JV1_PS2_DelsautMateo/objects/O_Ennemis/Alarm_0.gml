@@ -1,0 +1,1 @@
+/// @description cooldown degats perso

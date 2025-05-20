@@ -1,9 +1,9 @@
-distance_perso = 0
+randomise();
+speed = 2;
+changeDirTime = irandom_range(60,120);
+dirTimer = 0;
 
-hp = 5;
+targetX = x + irandom_range(-100,100);
+targetY = y + irandom_range(-100,100);
 
-//direction vars
-ran = 0;
-randir = 0;
-dirPlus = 0;
-dirMoins = 0;
+distancePerso = 0;

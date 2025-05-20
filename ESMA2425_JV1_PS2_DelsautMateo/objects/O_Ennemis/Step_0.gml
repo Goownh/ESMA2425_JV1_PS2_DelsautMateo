@@ -7,19 +7,16 @@ if(hp <= 0) {
 
 //calcul distance avec perso 
 if (distancePerso < 600) {
-	if (distancePerso > 300 && x != O_Perso.x) {
+	if (distancePerso > 0 && x != O_Perso.x) {
 		move_towards_point(O_Perso.x, y, 4);
 	}
 	else {
 		speed = 0;
-		if(alarm_get(3) <= 0) {
-			alarm_set(3,20);
-		}
 	}
 }
 else {
 	//pas bouger quand tir
-	if(alarm_get(3) > 0) {
+	if(alarm_get(1) > 0) {
 		speed = 0;
 	}
 
@@ -36,9 +33,9 @@ else {
 		
 	}
 }
-if(targetX>0 || hspeed>0) {
+if(targetX>0) {
 	image_xscale = 1;
 }
-else if(targetX<0 || hspeed<0) {
+else if(targetX<0) {
 	image_xscale = -1;
 }
