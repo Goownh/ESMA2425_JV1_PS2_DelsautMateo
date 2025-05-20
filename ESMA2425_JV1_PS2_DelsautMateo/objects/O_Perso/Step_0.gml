@@ -58,7 +58,6 @@ if(clickG && alarm_get(3) <= 0){
 	alarm_set(3,30);
 	if(image_xscale == 1) {
 			instance_create_layer(x+64,y,"Char", O_Attaque);
-			if
 		}
 		else {
 			instance_create_layer(x-64,y,"Char", O_Attaque);
