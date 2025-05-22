@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_Tir",
-    "path":"sprites/S_Tir/S_Tir.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

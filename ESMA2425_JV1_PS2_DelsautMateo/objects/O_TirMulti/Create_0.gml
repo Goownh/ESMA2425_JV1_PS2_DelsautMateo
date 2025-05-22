@@ -1,10 +1,10 @@
 sprite = choose(0,1,2);
 switch sprite {
-	case 1: sprite_index = S_TirMultiBoulon;
+	case 0: sprite_index = S_TirMultiBoulon;
 	break;
-	case 2: sprite_index = S_TirMultiBoulon;
+	case 1: sprite_index = S_TirMultiClou;
 	break;
-	case 3: sprite_index = S_TirMultiBoulon;
+	case 2: sprite_index = S_TirMultiEcrou;
 	break;
 }
 
