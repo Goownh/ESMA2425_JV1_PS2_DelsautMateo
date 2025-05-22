@@ -5,6 +5,8 @@ switch sprite {
 	case 1: sprite_index = S_TirMultiClou;
 	break;
 	case 2: sprite_index = S_TirMultiEcrou;
+	image_xscale = 0.7;
+	image_yscale = 0.7;
 	break;
 }
 
