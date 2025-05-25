@@ -1,6 +1,6 @@
 xspd = 0;
 yspd = 0
-moveSpd =15;
+moveSpd =7;
 
 onGround = false;
 wallJump = 0;

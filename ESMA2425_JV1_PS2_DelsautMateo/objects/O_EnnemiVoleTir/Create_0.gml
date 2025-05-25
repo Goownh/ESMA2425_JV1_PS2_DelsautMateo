@@ -1,5 +1,4 @@
 randomise();
-speed = 2;
 changeDirTime = irandom_range(60,120);
 dirTimer = 0;
 
