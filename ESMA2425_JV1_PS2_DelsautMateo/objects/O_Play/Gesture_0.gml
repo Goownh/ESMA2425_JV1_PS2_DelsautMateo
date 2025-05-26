@@ -1,1 +1,1 @@
-room_goto(O_pause);
+room_goto(O_Pause.salle);
