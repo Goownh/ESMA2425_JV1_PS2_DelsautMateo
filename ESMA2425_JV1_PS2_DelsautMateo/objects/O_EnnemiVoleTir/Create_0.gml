@@ -6,3 +6,6 @@ targetX = x + irandom_range(-100,100);
 targetY = y + irandom_range(-100,100);
 
 distancePerso = 0;
+directionProj = 0;
+
+nbProj = 18;

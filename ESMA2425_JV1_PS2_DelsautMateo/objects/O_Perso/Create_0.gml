@@ -5,3 +5,4 @@ moveSpd =7;
 onGround = false;
 wallJump = 0;
 onWall = false;
+tombe = false;

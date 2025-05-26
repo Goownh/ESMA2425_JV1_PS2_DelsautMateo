@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Restart",
+  "%Name":"O_Exit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Restart",
+  "name":"O_Exit",
   "overriddenProperties":[],
   "parent":{
     "name":"Boutons",

@@ -6,14 +6,17 @@ var spacePress = keyboard_check_pressed(vk_space);
 var clickD = mouse_check_button_pressed(mb_right);
 var clickG = mouse_check_button_pressed(mb_left);
 
+
 xspd = moveSpd * (DDown - QDown);
 yspd += grav;
+//dddd onWall = false;
 
 if(place_meeting(x, y+1, O_Sol)){
 	onGround = true;
 	//recup walljump
 	yspd = 0;
 	wallJump = global.nbWallJump;
+	//tombe = false;
 	
 	//jump
 	if(spacePress){
@@ -22,7 +25,7 @@ if(place_meeting(x, y+1, O_Sol)){
 	}
 }
 //wallgrab
-if(!onGround && onWall){
+if(!onGround && onWall/* && !tombe*/){
 	yspd = 0;
 	if(alarm_get(0)<=0) {
 		alarm_set(0, 30);
@@ -40,6 +43,7 @@ if(!onGround && onWall){
 }
 if(alarm_get(1) > 0) {
 	if(spacePress && wallJump>0) {
+		//tombe = false;
 		yspd  = -7;
 		xspd = moveSpd;
 	}
@@ -63,4 +67,3 @@ if(clickG && alarm_get(3) <= 0){
 			instance_create_layer(x-64,y,"Char", O_Attaque);
 		}
 }
-show_debug_message(xspd)

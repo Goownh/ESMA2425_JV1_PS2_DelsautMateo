@@ -1,8 +1,9 @@
 /// @description tir
-
-for(var i=0/*irandom_range(0,360)*/; i<360; i+=20){
-	with instance_create_layer(x,y,"Char", O_TirMulti){
-		image_angle = O_EnnemiVoleTir.i;
-		direction = image_angle;
-	}
+directionProj = 0;
+repeat (nbProj){ 
+	var tir = instance_create_layer(x,y,"Char", O_TirMulti)
+	tir.image_angle = directionProj;
+	tir.direction = tir.image_angle;
+	
+	directionProj+=20;
 }
