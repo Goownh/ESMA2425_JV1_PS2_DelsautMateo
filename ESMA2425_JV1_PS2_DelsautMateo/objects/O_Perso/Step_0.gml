@@ -33,7 +33,7 @@ if(!onGround && onWall){
 		xspd = moveSpd;
 	}
 	//ghost frame
-	if(xspd > 0) {
+	if(xspd != 0) {
 		onWall = false;
 		alarm_set(1, 6);
 	}
@@ -63,3 +63,4 @@ if(clickG && alarm_get(3) <= 0){
 			instance_create_layer(x-64,y,"Char", O_Attaque);
 		}
 }
+show_debug_message(xspd)

@@ -13,7 +13,7 @@ if (distancePerso < 600) {
 }
 else {
 	dirTimer++;
-	if(dirTimer>=changeDirTime) {	
+	if(dirTimer>changeDirTime) {	
 		targetX = x+(irandom_range(-3,3)*50);
 		targetY = y+(irandom_range(-3,3)*50);
 	
@@ -29,9 +29,16 @@ else {
 		y+=lengthdir_y(2, dir);	
 	}
 }
-if(targetX>0 || hspeed>0) {
+if((distancePerso < 600 && hspeed>0) || (distancePerso >= 600 && targetX>x)) {
 	image_xscale = 1;
 }
-else if(targetX<0 || hspeed<0) {
+else if(hspeed<0 || targetX<x) {
 	image_xscale = -1;
 }
+
+show_debug_message(targetX)
+show_debug_message(x)
+show_debug_message("")
+show_debug_message(hspeed)
+show_debug_message("")
+show_debug_message("")

@@ -35,9 +35,9 @@ else {
 		y+=lengthdir_y(2, dir);	
 	}
 }
-if(targetX>0 || hspeed>0) {
+if((distancePerso < 600 && x < O_Perso.x) || (distancePerso >= 600 && x>xprevious)) {
 	image_xscale = 1;
 }
-else if(targetX<0 || hspeed<0) {
+else if((distancePerso < 600 && x > O_Perso.x) || (distancePerso >= 600 && x<xprevious)) {
 	image_xscale = -1;
 }
