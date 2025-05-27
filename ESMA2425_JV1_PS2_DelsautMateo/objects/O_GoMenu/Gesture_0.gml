@@ -1,2 +1,2 @@
-Test.persistent = false;
+Test.room_persistent = false;
 room_goto(Menu);
