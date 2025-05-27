@@ -1,4 +1,5 @@
 if(Hp <= 0) {
+	room_persistent = false;
 	room_goto(Mort);
 }
 if(invu){

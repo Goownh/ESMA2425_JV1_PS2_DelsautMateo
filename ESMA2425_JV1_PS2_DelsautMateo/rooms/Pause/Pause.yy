@@ -8,14 +8,16 @@
   "instanceCreationOrder":[
     {"name":"inst_3BAA3208","path":"rooms/Pause/Pause.yy",},
     {"name":"inst_4812789","path":"rooms/Pause/Pause.yy",},
-    {"name":"inst_43CA4E83","path":"rooms/Pause/Pause.yy",},
+    {"name":"inst_31FFE07","path":"rooms/Pause/Pause.yy",},
+    {"name":"inst_3FAAC2DD","path":"rooms/Pause/Pause.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_3BAA3208","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BAA3208","objectId":{"name":"O_Controles","path":"objects/O_Controles/O_Controles.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.5,"x":576.0,"y":352.0,},
-        {"$GMRInstance":"v2","%Name":"inst_4812789","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4812789","objectId":{"name":"O_Exit","path":"objects/O_Exit/O_Exit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.5,"x":576.0,"y":512.0,},
-        {"$GMRInstance":"v2","%Name":"inst_43CA4E83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43CA4E83","objectId":{"name":"O_Restart","path":"objects/O_Restart/O_Restart.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.5,"x":576.0,"y":192.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3BAA3208","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BAA3208","objectId":{"name":"O_Controles","path":"objects/O_Controles/O_Controles.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.5,"x":576.0,"y":256.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4812789","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4812789","objectId":{"name":"O_Exit","path":"objects/O_Exit/O_Exit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.5,"x":576.0,"y":576.0,},
+        {"$GMRInstance":"v2","%Name":"inst_31FFE07","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31FFE07","objectId":{"name":"O_GoMenu","path":"objects/O_GoMenu/O_GoMenu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.5,"x":576.0,"y":416.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3FAAC2DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FAAC2DD","objectId":{"name":"O_Play","path":"objects/O_Play/O_Play.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.5,"x":576.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"Pause",

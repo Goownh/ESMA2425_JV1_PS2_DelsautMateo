@@ -1,4 +1,4 @@
-var ZDown = keyboard_check(ord("Z"));
+var ZDown = keyboard_check(ord("Z")) || gamepad_axis_value(0, gp_axislh);
 var SDown = keyboard_check(ord("S"));
 var QDown = keyboard_check(ord("Q"));
 var DDown = keyboard_check(ord("D"));
