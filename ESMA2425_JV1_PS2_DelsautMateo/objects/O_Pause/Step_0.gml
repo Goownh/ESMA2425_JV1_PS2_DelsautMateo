@@ -5,4 +5,3 @@ if (room != Menu && (keyboard_check_pressed(vk_escape)||gamepad_button_check_pre
 	}
 	Sc_Pause(pause, salle);
 }
-show_debug_message(salle)
