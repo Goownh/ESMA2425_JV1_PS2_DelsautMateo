@@ -18,8 +18,8 @@
   "name":"O_Perso",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Pertso",
+    "path":"folders/Objects/Pertso.yy",
   },
   "parentObjectId":null,
   "persistent":false,

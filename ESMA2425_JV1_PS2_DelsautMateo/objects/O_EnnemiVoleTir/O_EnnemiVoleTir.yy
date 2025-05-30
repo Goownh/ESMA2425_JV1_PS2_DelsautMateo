@@ -12,8 +12,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemis","path":"objects/O_Ennemis/O_Ennemis.yy",},"propertyId":{"name":"hp","path":"objects/O_Ennemis/O_Ennemis.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Ennermis",
+    "path":"folders/Objects/Ennermis.yy",
   },
   "parentObjectId":{
     "name":"O_Ennemis",

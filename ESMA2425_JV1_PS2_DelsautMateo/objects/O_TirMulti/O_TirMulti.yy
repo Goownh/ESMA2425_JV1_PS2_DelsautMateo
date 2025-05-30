@@ -12,8 +12,8 @@
   "name":"O_TirMulti",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Ennermis",
+    "path":"folders/Objects/Ennermis.yy",
   },
   "parentObjectId":null,
   "persistent":false,

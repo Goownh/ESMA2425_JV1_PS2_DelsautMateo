@@ -13,7 +13,7 @@ if (distancePerso < 600) {
 	else {
 		speed = 0;
 		if(alarm_get(3) <= 0) {
-			alarm_set(3,20);
+			alarm_set(3,60);
 		}
 	}
 }
@@ -28,7 +28,6 @@ else {
 		dirTimer++;
 		if(dirTimer>=changeDirTime) {	
 			targetX = irandom_range(-3,3)*0.5;
-	
 			dirTimer = 0;
 			changeDirTime = irandom_range(60,120);
 		}
@@ -37,8 +36,11 @@ else {
 	}
 }
 
-if(speed == 0){
+if(speed == 0) {
 	sprite_index = S_EnnemiTirIdle;	
+}
+else {
+	sprite_index = S_EnnemiTirBouge;
 }
 
 

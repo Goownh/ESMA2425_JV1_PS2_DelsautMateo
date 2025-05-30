@@ -54,5 +54,3 @@ if((distancePerso < 600 && hspeed>0) || (distancePerso >= 600 && targetX>x)) {
 else if(hspeed<0 || targetX<x) {
 	image_xscale = -1;
 }
-
-show_debug_message(alarm_get(3))

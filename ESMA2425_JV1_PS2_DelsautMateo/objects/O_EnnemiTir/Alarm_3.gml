@@ -1,2 +1,2 @@
 /// @description tir
-instance_create_layer(x,y,"Char", O_Tir);
+instance_create_layer(x,y+11,"Char", O_Tir);

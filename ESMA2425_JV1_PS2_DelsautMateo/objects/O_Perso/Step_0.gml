@@ -14,7 +14,6 @@ xspd = moveSpd * (DDown - QDown);
 yspd += grav;
 
 if(place_meeting(x, y+1, O_Sol)){
-	onGround = true;
 	//recup walljump
 	yspd = 0;
 	wallJump = global.nbWallJump;
@@ -31,7 +30,7 @@ if(!onGround && onWall){
 	//wall jump
 	if(spacePress) {
 		yspd  = -7;
-		xspd = moveSpd;
+		xspd = wallJump*-image_xscale;
 	}
 	//ghost frame
 	if(xspd != 0) {
@@ -41,9 +40,8 @@ if(!onGround && onWall){
 }
 if(alarm_get(1) > 0) {
 	if(spacePress && wallJump>0) {
-		//tombe = false;
+		wallJump--;
 		yspd  = -7;
-		xspd = moveSpd;
 	}
 }
 if(instance_exists(O_Parade)) {
@@ -70,3 +68,6 @@ if(clickG && alarm_get(3) <= 0){
 			instance_create_layer(x-64,y,"Char", O_Attaque);
 		}
 }
+
+show_debug_message(wallJump)
+show_debug_message(onGround)
