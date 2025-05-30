@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"S_EnnemiVolantTir",
+  "%Name":"S_EnnemiVolantTirIdle",
   "bboxMode":0,
   "bbox_bottom":57,
   "bbox_left":4,
@@ -24,19 +24,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"f21bcfda-cf7a-43c8-9322-e032cf73db59","blendMode":0,"displayName":"default","isLocked":false,"name":"f21bcfda-cf7a-43c8-9322-e032cf73db59","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"S_EnnemiVolantTir",
+  "name":"S_EnnemiVolantTirIdle",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Ennemies",
-    "path":"folders/Sprites/Ennemies.yy",
+    "name":"VolantTir",
+    "path":"folders/Sprites/Ennemies/VolantTir.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"S_EnnemiVolantTir",
+    "%Name":"S_EnnemiVolantTirIdle",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"S_EnnemiVolantTir",
+    "name":"S_EnnemiVolantTirIdle",
     "playback":1,
     "playbackSpeed":6.0,
     "playbackSpeedType":0,
@@ -74,16 +74,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c62f6d52-2ad5-4376-b29a-1038bf6f9eea","path":"sprites/S_EnnemiVolantTir/S_EnnemiVolantTir.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c62f6d52-2ad5-4376-b29a-1038bf6f9eea","path":"sprites/S_EnnemiVolantTirIdle/S_EnnemiVolantTirIdle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"88888fa6-9e6e-418d-9eb8-54af01eaacc7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d5ed4045-8958-4f74-94bf-ca8da95ee02b","path":"sprites/S_EnnemiVolantTir/S_EnnemiVolantTir.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d5ed4045-8958-4f74-94bf-ca8da95ee02b","path":"sprites/S_EnnemiVolantTirIdle/S_EnnemiVolantTirIdle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"52a6867a-1722-4503-9155-d7bd8aef15c2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f90ddbe1-05e4-4160-8fd4-b349fb0cb40f","path":"sprites/S_EnnemiVolantTir/S_EnnemiVolantTir.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f90ddbe1-05e4-4160-8fd4-b349fb0cb40f","path":"sprites/S_EnnemiVolantTirIdle/S_EnnemiVolantTirIdle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"6581751d-d541-4016-a0be-2ace3e15f4ef","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1ee27b0b-0e76-46a3-9721-4f55902eaeca","path":"sprites/S_EnnemiVolantTir/S_EnnemiVolantTir.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1ee27b0b-0e76-46a3-9721-4f55902eaeca","path":"sprites/S_EnnemiVolantTirIdle/S_EnnemiVolantTirIdle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ff38d761-f1ed-4c20-9158-84bd8e5a0097","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

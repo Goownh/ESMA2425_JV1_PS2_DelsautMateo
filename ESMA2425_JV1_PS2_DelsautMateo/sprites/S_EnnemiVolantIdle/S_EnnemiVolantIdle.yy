@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"S_EnnemiVolant",
+  "%Name":"S_EnnemiVolantIdle",
   "bboxMode":0,
   "bbox_bottom":31,
   "bbox_left":0,
@@ -24,19 +24,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"f53ac66e-5842-4744-a46c-ce905d79dc36","blendMode":0,"displayName":"default","isLocked":false,"name":"f53ac66e-5842-4744-a46c-ce905d79dc36","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"S_EnnemiVolant",
+  "name":"S_EnnemiVolantIdle",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Ennemies",
-    "path":"folders/Sprites/Ennemies.yy",
+    "name":"Volant",
+    "path":"folders/Sprites/Ennemies/Volant.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"S_EnnemiVolant",
+    "%Name":"S_EnnemiVolantIdle",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"S_EnnemiVolant",
+    "name":"S_EnnemiVolantIdle",
     "playback":1,
     "playbackSpeed":7.0,
     "playbackSpeedType":0,
@@ -74,16 +74,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"17c00ca4-1e38-4af9-8008-a90e7a7d07c4","path":"sprites/S_EnnemiVolant/S_EnnemiVolant.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"17c00ca4-1e38-4af9-8008-a90e7a7d07c4","path":"sprites/S_EnnemiVolantIdle/S_EnnemiVolantIdle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"6831d2db-ab97-4971-82b8-d50e68a4afa1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4226eb4f-f7fb-4bc9-ba30-a92ce5d2c7e8","path":"sprites/S_EnnemiVolant/S_EnnemiVolant.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4226eb4f-f7fb-4bc9-ba30-a92ce5d2c7e8","path":"sprites/S_EnnemiVolantIdle/S_EnnemiVolantIdle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"39deec2a-f3d7-47cc-8732-d36cbd640df6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"142010e1-3686-4d6b-9e79-80d9661391eb","path":"sprites/S_EnnemiVolant/S_EnnemiVolant.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"142010e1-3686-4d6b-9e79-80d9661391eb","path":"sprites/S_EnnemiVolantIdle/S_EnnemiVolantIdle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c1a23e4a-711d-4af2-9add-359fd8f797fa","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8bf38ddd-6a48-43f1-a2b6-78f17a152690","path":"sprites/S_EnnemiVolant/S_EnnemiVolant.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8bf38ddd-6a48-43f1-a2b6-78f17a152690","path":"sprites/S_EnnemiVolantIdle/S_EnnemiVolantIdle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0d1eedbd-baca-4989-879c-5c39d511f106","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

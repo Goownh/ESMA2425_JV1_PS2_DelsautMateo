@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_EnnemiVolantTir",
-    "path":"sprites/S_EnnemiVolantTir/S_EnnemiVolantTir.yy",
+    "name":"S_EnnemiVolantTirIdle",
+    "path":"sprites/S_EnnemiVolantTirIdle/S_EnnemiVolantTirIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
