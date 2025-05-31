@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_EnnemiTirIdle",
-    "path":"sprites/S_EnnemiTirIdle/S_EnnemiTirIdle.yy",
+    "name":"S_EnnemiMarcheIdle",
+    "path":"sprites/S_EnnemiMarcheIdle/S_EnnemiMarcheIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

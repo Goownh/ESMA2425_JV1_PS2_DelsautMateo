@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Ennemies",
-    "path":"folders/Sprites/Ennemies.yy",
+    "name":"VolantTir",
+    "path":"folders/Sprites/Ennemies/VolantTir.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

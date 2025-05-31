@@ -7,9 +7,6 @@ var clickD = mouse_check_button_pressed(mb_right);
 var clickG = mouse_check_button_pressed(mb_left);
 
 
-
-
-
 xspd = moveSpd * (DDown - QDown);
 yspd += grav;
 
@@ -62,11 +59,11 @@ if(clickD && alarm_get(2) <= 0){
 if(clickG && alarm_get(3) <= 0){
 	alarm_set(3,30);
 	if(image_xscale == 1) {
-			instance_create_layer(x+64,y,"Char", O_Attaque);
-		}
-		else {
-			instance_create_layer(x-64,y,"Char", O_Attaque);
-		}
+		instance_create_layer(x+64,y,"Char", O_Attaque);
+	}
+	else {
+		instance_create_layer(x-64,y,"Char", O_Attaque);
+	}
 }
 
 show_debug_message(wallJump)

@@ -10,9 +10,6 @@ if (distancePerso < 600) {
 	if (distancePerso > 0 && x != O_Perso.x) {
 		move_towards_point(O_Perso.x, y, 4);
 	}
-	else {
-		speed = 0;
-	}
 }
 else {
 	//pas bouger quand tir
@@ -33,6 +30,15 @@ else {
 		
 	}
 }
+
+
+if(speed == 0) {
+	sprite_index = S_EnnemiMarcheIdle;	
+}
+else {
+	sprite_index = S_EnnemiMarcheBouge;
+}
+
 
 if((distancePerso < 600 && x < O_Perso.x) || (distancePerso >= 600 && x>xprevious)) {
 	image_xscale = 1;
