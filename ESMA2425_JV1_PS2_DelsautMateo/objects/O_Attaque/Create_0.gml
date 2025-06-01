@@ -1,2 +1,2 @@
-distance = O_Perso.image_xscale*sprite_width;
-image_xscale = O_Perso.image_xscale;
+distance = O_Perso.image_xscale*55;
+image_xscale = O_Perso.image_xscale;	

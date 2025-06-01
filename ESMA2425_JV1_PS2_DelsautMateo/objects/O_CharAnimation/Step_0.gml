@@ -2,10 +2,10 @@ var clickD = mouse_check_button(mb_right);
 var clickG = mouse_check_button(mb_left);
 
 with O_Perso {
-	if(clickG) {//atk
+	if(instance_exists(O_Attaque) || clickG) {//atk
 		sprite_index = S_CharAtk;
 	}
-	else if (clickD) {//parade
+	else if (instance_exists(O_Parade) || (clickD && xspd == 0)) {//parade
 		sprite_index = S_CharParade;
 	}
 	else {//move 
@@ -24,9 +24,10 @@ with O_Perso {
 	}
 	//choose direction of sprite
 	if(xspd>0) {
-		image_xscale = 1;
+		image_xscale = 1.1;
 	}
 	else if(xspd<0){
-		image_xscale = -1;
+		image_xscale = -1.1;
 	}
+	image_yscale = 1.1
 }
