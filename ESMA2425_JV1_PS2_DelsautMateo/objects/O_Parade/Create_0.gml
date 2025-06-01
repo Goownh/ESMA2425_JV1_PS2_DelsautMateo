@@ -1,6 +1,6 @@
 distance = O_Perso.image_xscale*32;
 image_xscale = O_Perso.image_xscale;
-
+depth = -y
 
 nvImage_angle = 0;
 nvSprite = 0;

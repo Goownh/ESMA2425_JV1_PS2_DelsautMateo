@@ -8,7 +8,7 @@
   "managed":true,
   "name":"O_EnnemiTir",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemis","path":"objects/O_Ennemis/O_Ennemis.yy",},"propertyId":{"name":"hp","path":"objects/O_Ennemis/O_Ennemis.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemis","path":"objects/O_Ennemis/O_Ennemis.yy",},"propertyId":{"name":"hp","path":"objects/O_Ennemis/O_Ennemis.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"Ennermis",

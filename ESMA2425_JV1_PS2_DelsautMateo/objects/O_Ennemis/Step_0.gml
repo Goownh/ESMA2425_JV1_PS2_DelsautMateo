@@ -52,3 +52,4 @@ if((distancePerso < 600 && x < O_Perso.x) || (distancePerso >= 600 && x>xpreviou
 else if((distancePerso < 600 && x > O_Perso.x) || (distancePerso >= 600 && x<xprevious)) {
 	image_xscale = -1;
 }
+show_debug_message(hp)

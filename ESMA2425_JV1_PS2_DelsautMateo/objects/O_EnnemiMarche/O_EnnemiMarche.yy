@@ -5,7 +5,7 @@
   "managed":true,
   "name":"O_EnnemiMarche",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemis","path":"objects/O_Ennemis/O_Ennemis.yy",},"propertyId":{"name":"hp","path":"objects/O_Ennemis/O_Ennemis.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemis","path":"objects/O_Ennemis/O_Ennemis.yy",},"propertyId":{"name":"hp","path":"objects/O_Ennemis/O_Ennemis.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
   ],
   "parent":{
     "name":"Ennermis",

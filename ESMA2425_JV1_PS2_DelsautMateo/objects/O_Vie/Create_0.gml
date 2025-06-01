@@ -1,3 +1,3 @@
 Hp = 10;
 invu = false;
-room_persistent = true;
+dmg = 1;

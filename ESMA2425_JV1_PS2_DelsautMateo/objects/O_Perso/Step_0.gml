@@ -17,7 +17,7 @@ if(place_meeting(x, y+1, O_Sol)){
 	
 	//jump
 	if(spacePress){
-		yspd = -7;
+		yspd = -10;
 		onGround = false;
 	}
 }
@@ -27,7 +27,7 @@ if(!onGround && onWall){
 	yspd = 0;
 	//wall jump
 	if(spacePress) {
-		yspd  = -7;
+		yspd  = -10;
 		xspd = wallJump*-image_xscale;
 	}
 	//ghost frame
@@ -39,7 +39,7 @@ if(!onGround && onWall){
 if(alarm_get(1) > 0) {
 	if(spacePress && wallJump>0) {
 		wallJump--;
-		yspd  = -7;
+		yspd  = -10;
 	}
 }
 if(instance_exists(O_Parade)) {
@@ -55,18 +55,18 @@ y += yspd;
 
 
 //parry
-if(clickD && alarm_get(2) <= 0){
+if(clickD && alarm_get(2) <= 0 && !instance_exists(O_Attaque)){
 	alarm_set(2,60);
 	if(image_xscale == 1) {
-		instance_create_layer(x+25,y,"Ennemies", O_Parade);
+		instance_create_layer(x+32,y,"Ennemies", O_Parade);
 	}
 	else {
-		instance_create_layer(x-25,y,"Ennemies", O_Parade);
+		instance_create_layer(x-32,y,"Ennemies", O_Parade);
 	}
 	xspd = 0;
 }
 //attack
-if(clickG && alarm_get(3) <= 0){
+if(clickG && alarm_get(3) <= 0 && !instance_exists(O_Parade)){
 	alarm_set(3,30);
 	if(image_xscale == 1) {
 		instance_create_layer(x+55,y+8,"Ennemies", O_Attaque);

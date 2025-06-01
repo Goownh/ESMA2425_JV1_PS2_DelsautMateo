@@ -18,7 +18,6 @@
     {"name":"inst_25CCC82A","path":"rooms/Test/Test.yy",},
     {"name":"inst_711AA790","path":"rooms/Test/Test.yy",},
     {"name":"inst_D85AD49","path":"rooms/Test/Test.yy",},
-    {"name":"inst_5DFC5938","path":"rooms/Test/Test.yy",},
     {"name":"inst_66B00A76","path":"rooms/Test/Test.yy",},
     {"name":"inst_2C759B4F","path":"rooms/Test/Test.yy",},
     {"name":"inst_37979B","path":"rooms/Test/Test.yy",},
@@ -33,7 +32,6 @@
     {"$GMRInstanceLayer":"","%Name":"Managers","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_266421D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_266421D2","objectId":{"name":"O_Vie","path":"objects/O_Vie/O_Vie.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_25CCC82A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25CCC82A","objectId":{"name":"O_CharAnimation","path":"objects/O_CharAnimation/O_CharAnimation.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":0.0,},
-        {"$GMRInstance":"v2","%Name":"inst_5DFC5938","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DFC5938","objectId":{"name":"O_Upgrades","path":"objects/O_Upgrades/O_Upgrades.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_5A71FCFB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A71FCFB","objectId":{"name":"O_Parallax","path":"objects/O_Parallax/O_Parallax.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-128.0,"y":0.0,},
       ],"layers":[],"name":"Managers","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Char","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

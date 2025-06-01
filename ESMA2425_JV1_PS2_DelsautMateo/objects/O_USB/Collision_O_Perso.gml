@@ -1,2 +1,2 @@
-O_Upgrades.upgrade++;
+global.upgrades++;
 instance_destroy();
