@@ -37,7 +37,6 @@ else {
 	}
 }
 y += yspd;
-show_debug_message(yspd)
 
 if(speed == 0) {
 	sprite_index = S_EnnemiMarcheIdle;	

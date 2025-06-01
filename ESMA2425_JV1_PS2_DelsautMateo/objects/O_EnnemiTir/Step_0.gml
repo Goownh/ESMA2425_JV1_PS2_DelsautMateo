@@ -1,8 +1,14 @@
 distancePerso = distance_to_object(O_Perso);
-
+yspd += grav;
 //mort
+
 if(hp <= 0) {
 	instance_destroy();
+}
+
+if(place_meeting(x, y+1, O_Sol)){
+	//recup walljump
+	yspd = 0;
 }
 
 //calcul distance avec perso 
@@ -13,7 +19,7 @@ if (distancePerso < 600) {
 	else {
 		speed = 0;
 		if(alarm_get(3) <= 0) {
-			alarm_set(3,60);
+			alarm_set(3,random_range(80,140));
 		}
 	}
 }
@@ -36,6 +42,7 @@ else {
 	}
 }
 
+y += yspd;
 if(speed == 0) {
 	sprite_index = S_EnnemiTirIdle;	
 }

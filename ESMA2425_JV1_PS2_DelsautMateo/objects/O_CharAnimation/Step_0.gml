@@ -29,5 +29,5 @@ with O_Perso {
 	else if(xspd<0){
 		image_xscale = -1.1;
 	}
-	image_yscale = 1.1
+	image_yscale = 1.1;
 }

@@ -1,0 +1,3 @@
+yspd+=grav;
+
+y +=yspd;

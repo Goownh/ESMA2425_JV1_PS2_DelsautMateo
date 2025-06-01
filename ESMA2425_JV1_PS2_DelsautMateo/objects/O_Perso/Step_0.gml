@@ -17,10 +17,11 @@ if(place_meeting(x, y+1, O_Sol)){
 	
 	//jump
 	if(spacePress){
-		yspd = -15;
+		yspd = -7;
 		onGround = false;
 	}
 }
+
 //wallgrab
 if(!onGround && onWall){
 	yspd = 0;
@@ -44,14 +45,18 @@ if(alarm_get(1) > 0) {
 if(instance_exists(O_Parade)) {
 	xspd = 0;
 }
-
+if(place_meeting(x, y-3, O_Mur)){
+	//bonk plafond
+	yspd = grav;
+	y+=1;
+}
 x += xspd;
 y += yspd;
 
 
 //parry
 if(clickD && alarm_get(2) <= 0){
-	alarm_set(2,90);
+	alarm_set(2,60);
 	if(image_xscale == 1) {
 		instance_create_layer(x+25,y,"Ennemies", O_Parade);
 	}
