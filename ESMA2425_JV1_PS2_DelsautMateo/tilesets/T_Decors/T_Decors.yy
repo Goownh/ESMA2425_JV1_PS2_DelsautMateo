@@ -1,0 +1,48 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"T_Decors",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":18,
+    "SerialiseWidth":10,
+    "TileCompressedData":[
+      40,0,1,2,18,1,0,1,16,18,33,0,16,33,2,34,0,18,33,34,17,0,33,34,48,17,0,33,32,50,49,0,49,16,18,49,0,32,
+      49,1,33,-21,0,34,16,2,18,49,0,2,18,2,0,0,49,17,32,16,0,16,33,49,0,0,17,49,18,33,0,16,17,50,0,0,16,2,
+      18,32,-11,0,28,1,18,49,0,0,33,2,48,0,0,2,17,34,0,0,33,32,34,0,0,2,49,50,0,0,49,33,1,-17,0,18,16,2,0,
+      2,18,0,49,34,0,0,33,33,0,33,18,0,2,17,-11,0,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"T_Decors",
+  "out_columns":16,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"S_Decors",
+    "path":"sprites/S_Decors/S_Decors.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":32,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":32,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":256,
+}
