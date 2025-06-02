@@ -1,2 +1,2 @@
 /// @description cooldown degat
-image_blend = noone;
+image_blend = noone
