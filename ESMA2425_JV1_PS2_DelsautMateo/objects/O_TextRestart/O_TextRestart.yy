@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Restart",
+  "%Name":"O_TextRestart",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Restart",
+  "name":"O_TextRestart",
   "overriddenProperties":[],
   "parent":{
     "name":"Boutons",
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Boutons",
-    "path":"sprites/S_Boutons/S_Boutons.yy",
+    "name":"S_Mur",
+    "path":"sprites/S_Mur/S_Mur.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

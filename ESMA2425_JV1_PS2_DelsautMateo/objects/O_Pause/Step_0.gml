@@ -5,4 +5,3 @@ if (room != Menu && room != Controles && (keyboard_check_pressed(vk_escape)||gam
 	}
 	Sc_Pause(pause, salle);
 }
-show_debug_message(global.upgrades)
