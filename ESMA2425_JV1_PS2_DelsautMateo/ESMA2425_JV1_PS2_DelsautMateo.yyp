@@ -79,7 +79,7 @@
     {"id":{"name":"O_Vaisseau","path":"objects/O_Vaisseau/O_Vaisseau.yy",},},
     {"id":{"name":"O_Vie","path":"objects/O_Vie/O_Vie.yy",},},
     {"id":{"name":"Controles","path":"rooms/Controles/Controles.yy",},},
-    {"id":{"name":"Gagner","path":"rooms/Gagner/Gagner.yy",},},
+    {"id":{"name":"Gagne","path":"rooms/Gagne/Gagne.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Mort","path":"rooms/Mort/Mort.yy",},},
     {"id":{"name":"Pause","path":"rooms/Pause/Pause.yy",},},
@@ -138,7 +138,7 @@
     {"roomId":{"name":"Controles","path":"rooms/Controles/Controles.yy",},},
     {"roomId":{"name":"VaisseauDepart","path":"rooms/VaisseauDepart/VaisseauDepart.yy",},},
     {"roomId":{"name":"VaisseauCombat","path":"rooms/VaisseauCombat/VaisseauCombat.yy",},},
-    {"roomId":{"name":"Gagner","path":"rooms/Gagner/Gagner.yy",},},
+    {"roomId":{"name":"Gagne","path":"rooms/Gagne/Gagne.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -1,13 +1,13 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Gagner",
+  "%Name":"Gagne",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_73381203_1","path":"rooms/Gagner/Gagner.yy",},
-    {"name":"inst_199952D9_1","path":"rooms/Gagner/Gagner.yy",},
+    {"name":"inst_73381203_1","path":"rooms/Gagne/Gagne.yy",},
+    {"name":"inst_199952D9_1","path":"rooms/Gagne/Gagne.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -19,7 +19,7 @@
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"S_Fond2","path":"sprites/S_Fond2/S_Fond2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"S_Fond1","path":"sprites/S_Fond1/S_Fond1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Gagner",
+  "name":"Gagne",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
